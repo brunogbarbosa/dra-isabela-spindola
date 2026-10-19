@@ -2,6 +2,8 @@ export type Procedure = { name: string; description: string; image: string };
 export type Testimonial = { quote: string; name: string };
 export type Result = { image: string; label: string; alt: string; orientation: 'horizontal' | 'vertical' | 'single'; beforeShare: number; comparisonRatio: number };
 
+export const whatsappMessage = 'Oi, tudo bem? Vim pelo site e gostaria de entender qual procedimento é ideal para mim. 😊';
+
 // Shared brand tokens. All section colors and decorative colors derive from these.
 export const brandColors = {
   paper: '#F5F0E8',
@@ -26,7 +28,7 @@ export const site = {
   specialties: ['Harmonização facial', 'Full Face'],
   phone: '+55 (38) 99868-1100',
   whatsapp: '5538998681100',
-  whatsappUrl: 'https://wa.me/5538998681100',
+  whatsappUrl: `https://wa.me/5538998681100?text=${encodeURIComponent(whatsappMessage)}`,
   address: '',
   professionalPhilosophy: 'Naturalidade com precisão.',
   instagram: 'https://www.instagram.com/spindolabela/',

@@ -24,7 +24,7 @@ npm start
 1. Importe este repositório pelo painel da Vercel.
 2. Framework: **Next.js**. Root Directory: **./**.
 3. Install Command: **npm ci**. Build Command: **npm run build**. Output Directory: padrão do Next.js.
-4. Nenhuma variável de ambiente é obrigatória. A URL de produção é resolvida pela variável automática VERCEL_PROJECT_PRODUCTION_URL para metadados textuais.
+4. Nenhuma variável de ambiente é obrigatória. A URL de produção é resolvida pela variável automática VERCEL_PROJECT_PRODUCTION_URL para os metadados e a URL absoluta da imagem de compartilhamento.
 
 ## Conteúdo e identidade
 
@@ -33,6 +33,7 @@ Paleta: grafite #111614, dourado #C6A16C, marfim #F5F0E8, areia #E7DDCF, taupe #
 Tipografia local: Cormorant Garamond (Editorial) e Manrope (Modern), com licenças em `public/fonts`.
 
 WhatsApp: https://wa.me/5538998681100. Instagram: https://www.instagram.com/spindolabela/.
+Todos os botões do WhatsApp usam a mensagem preenchida: “Oi, tudo bem? Vim pelo site e gostaria de entender qual procedimento é ideal para mim. 😊”. O texto é centralizado em `whatsappMessage`, em `data/site.ts`, e codificado com `encodeURIComponent`.
 As informações profissionais foram limitadas aos dados fornecidos e à referência da bio enviada. Não foram acrescentados endereço, registro, formação ou depoimentos.
 
 ## Fotografias e galeria
@@ -47,4 +48,4 @@ O header é uma camada absoluta transparente acima do hero: logo à esquerda, na
 
 O menu e a galeria usam diálogos nativos com Escape, controle de foco e bloqueio da rolagem. O slider é acessível por teclado. As animações respeitam prefers-reduced-motion.
 
-Favicon: `app/icon.svg`. **Nenhuma imagem OG, social card ou imagem de compartilhamento foi criada.**
+Favicon: `app/icon.svg`. Imagem de compartilhamento fornecida pela solicitante: `public/images/isabela-og.jpg`, otimizada em JPEG de 1200 × 630 px. A composição recebida foi preservada, sem retoques; apenas redimensionamento e compressão. Os metadados Open Graph e Twitter usam o mesmo arquivo.

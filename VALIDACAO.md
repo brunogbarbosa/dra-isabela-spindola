@@ -9,8 +9,9 @@ Validado no navegador Chromium, executando o build de produção do projeto.
 - Responsividade adicional: 320, 375, 390, 430, 700, 768, 1024, 1440 e 1920 px, sem rolagem horizontal.
 - Menu mobile: abertura, navegação para seção, fechamento por Escape e retorno do foco.
 - Galeria: seis originais, ampliação, comparação, slider com teclado, troca entre registros, navegação circular, fechamento por botão e Escape e retorno do foco.
-- Contatos: todos os CTAs externos apontam para https://wa.me/5538998681100 ou https://www.instagram.com/spindolabela/.
-- Favicon IS: rota válida, SVG com grafite e dourado. Nenhuma imagem OG ou social card.
+- Contatos: todos os CTAs externos apontam para https://wa.me/5538998681100, com a mensagem solicitada no parâmetro `text`, ou https://www.instagram.com/spindolabela/. A mensagem preserva acentos, pontuação e o emoji 😊.
+- Favicon IS: rota válida, SVG com grafite e dourado.
+- Imagem OG fornecida pela solicitante: JPEG otimizado de 1200 × 630 px, com composição preservada. Open Graph e Twitter apontam para o mesmo arquivo, com URL absoluta, dimensões e texto alternativo.
 - Imagens: seis JPEGs de resultados copiados sem alterações; quatro retratos convertidos de PNG para WebP lossless, com igualdade dos pixels verificada.
 - Identidade: todas as cores das folhas de estilo derivam dos tokens compartilhados de `data/site.ts`; detalhes SVG usam os mesmos tokens.
 - JavaScript: sem erros de execução nas verificações.

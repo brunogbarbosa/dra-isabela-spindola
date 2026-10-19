@@ -12,7 +12,19 @@ export const metadata: Metadata = {
   title: site.seo.title,
   description: site.seo.description,
   ...(site.seo.url ? { alternates: { canonical: '/' } } : {}),
-  openGraph: { title: site.seo.title, description: site.seo.description, locale: 'pt_BR', type: 'website' },
+  openGraph: {
+    title: site.seo.title,
+    description: site.seo.description,
+    locale: 'pt_BR',
+    type: 'website',
+    images: [{ url: '/images/isabela-og.jpg', width: 1200, height: 630, type: 'image/jpeg', alt: 'Dra. Isabela Spíndola — Harmonização Facial. Naturalidade com precisão.' }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: site.seo.title,
+    description: site.seo.description,
+    images: [{ url: '/images/isabela-og.jpg', alt: 'Dra. Isabela Spíndola — Harmonização Facial. Naturalidade com precisão.' }],
+  },
 };
 export default function RootLayout({children}: Readonly<{children:React.ReactNode}>) {
   return <html lang="pt-BR"><body style={{
