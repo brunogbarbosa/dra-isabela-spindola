@@ -36,7 +36,7 @@
 
 @media (min-width: 701px) {
   .campaign-portrait { inset: 0 0 0 35%; mask-image: linear-gradient(90deg, transparent, #000 34%); }
-  .campaign-original { object-fit: cover; object-position: 50% 12%; filter: none; transform: none; }
+  .campaign-original { object-fit: cover; object-position: center top; filter: none; transform: none; }
   .campaign::before { background: linear-gradient(90deg, var(--dark) 0%, var(--dark) 28%, color-mix(in srgb, var(--dark) 94%, transparent) 35%, color-mix(in srgb, var(--dark) 56%, transparent) 46%, transparent 69%), linear-gradient(0deg, color-mix(in srgb, var(--dark) 86%, transparent), transparent 32%); }
   .campaign-inner { padding-top: 136px; }
   .campaign-copy { width: 60%; }
@@ -55,7 +55,7 @@
   .header { height: 86px; padding-inline: 6%; display: flex; justify-content: space-between; }
   .header .desktop-nav, .header-appointment { display: none; }
   .header .mobile-menu { display: grid; }
-  .campaign-original { filter: none; }
+  .campaign-original { object-position: center top; filter: none; transform: none; }
   .campaign::before { background: linear-gradient(180deg, color-mix(in srgb, var(--dark) 55%, transparent) 0%, transparent 18%, transparent 35%, color-mix(in srgb, var(--dark) 84%, transparent) 58%, var(--dark) 74%, var(--dark) 100%); }
   .campaign::after { background: linear-gradient(90deg, color-mix(in srgb, var(--dark) 30%, transparent), transparent 38%); }
   .gallery-heading p { max-width: 30rem; }

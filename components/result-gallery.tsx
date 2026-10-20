@@ -57,7 +57,7 @@ export function ResultGallery() {
       {item && <>
         <div className="viewer-top"><div><p className="chapter-tag">Um olhar mais próximo</p><h3 id="viewer-title">{item.label}</h3></div><button className="viewer-icon" onClick={close} aria-label="Fechar resultado"><X /></button></div>
         <div className="viewer-stage">
-          {compare && item.orientation !== 'single' ? <div className={`comparison ${item.orientation === 'vertical' ? 'vertical' : ''}`} style={{ aspectRatio: ratio, width: `min(100%, calc((100dvh - 280px) * ${ratio}))`, height: 'auto' }} role="img" aria-label={`Comparação interativa: ${item.label}`}>
+          {compare && item.orientation !== 'single' ? <div className={`comparison ${item.orientation === 'vertical' ? 'vertical' : ''}`} style={{ aspectRatio: ratio, width: `min(100%, calc((100dvh - 300px) * ${ratio}))`, height: 'auto' }} role="img" aria-label={`Comparação interativa: ${item.label}`}>
             <div className="compare-half after" style={{ backgroundImage: `url(${item.image})`, backgroundSize: item.orientation === 'vertical' ? `100% ${100 / cropShare}%` : `${100 / cropShare}% 100%` }} />
             <div className="compare-half before" style={{ backgroundImage: `url(${item.image})`, backgroundSize: item.orientation === 'vertical' ? `100% ${100 / cropShare}%` : `${100 / cropShare}% 100%`, clipPath: `inset(0 ${100 - value}% 0 0)` }} />
             <div className="comparison-line" style={{ left: `${value}%` }}><span>↔</span></div><span className="compare-label left">Antes</span><span className="compare-label right">Depois</span>

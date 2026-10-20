@@ -38,7 +38,9 @@ As informações profissionais foram limitadas aos dados fornecidos e à referê
 
 ## Fotografias e galeria
 
-Os dez arquivos vêm dos anexos fornecidos. Os seis JPEGs de resultados foram copiados sem nenhuma alteração de arquivo. Os quatro retratos PNG foram convertidos para WebP **lossless**, com validação de igualdade dos pixels. Não há retoque, geração ou modificação de rosto, pele ou resultados. As imagens usam `unoptimized` para servir esses próprios arquivos.
+Os dez arquivos vêm dos anexos fornecidos. Os resultados 1, 3, 4 e 6 são JPEGs copiados sem nenhuma alteração de arquivo. Os resultados 2 e 5 usam as fotografias substitutas fornecidas, convertidas de PNG para WebP **lossless**, com validação de igualdade dos pixels. Os quatro retratos também foram convertidos de PNG para WebP lossless. Não há retoque, geração ou modificação de rosto, pele ou resultados. As imagens usam `unoptimized` para servir esses próprios arquivos.
+
+O hero desktop e mobile usa o retrato frontal próximo (`isabela-experiencia.webp`); a seção 04 usa a fotografia sentada que estava no hero (`isabela-hero.webp`). Cada uma das quatro seções com retratos usa uma fotografia diferente, sem repetição.
 
 Todos os seis comparativos fornecidos são lado a lado e permanecem nessa orientação. A foto original completa é sempre a exibição inicial. O modo de comparação usa recortes de dimensões iguais do registro original, sem esticar os rostos. O modelo de dados também aceita comparações verticais e imagens únicas, sem criar um comparativo para estas últimas.
 
